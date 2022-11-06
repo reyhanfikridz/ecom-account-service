@@ -29,6 +29,6 @@ ECOM_ACCOUNT_SERVICE_FRONTEND_URL=<ecom frontend url, example: http://127.0.0.1:
 ECOM_ACCOUNT_SERVICE_PRODUCT_SERVICE_URL=<ecom product service url, example: http://127.0.0.1:8020>
 ```
 
-6. create postgresql databases with name same as in .env file
-7. test server first with `go test ./...` to make sure server works fine
-8. run server with `go run ./...`
+5. create postgresql databases with name same as in .env file
+6. test server first with `go test ./...` to make sure server works fine
+7. run server with `go run ./...`
