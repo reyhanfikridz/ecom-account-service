@@ -20,7 +20,7 @@ func main() {
 	}
 
 	// serve server
-	log.Fatal(http.ListenAndServe(":8010", a.Router))
+	log.Fatal(http.ListenAndServe(config.ServerURL, a.Router))
 }
 
 // InitAPI initialize API
