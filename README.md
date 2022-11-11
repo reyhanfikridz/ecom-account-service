@@ -12,9 +12,10 @@ This is a microservice for ECOM that related to customer account CRUD.
 
 ### Steps to run the server:
 1. install all requirements
-2. clone repository at directory `$GOPATH/src/github.com/`
-3. install required go library with `go mod download` then `go mod vendor` at repository root directory (same level as README.md)
-4. create file .env at repository root directory (same level as README.md) with contents:
+2. clone repository with `git clone https://github.com/reyhanfikridz/ecom-account-service` at directory `$GOPATH/src/github.com/reyhanfikridz/`
+3. change branch to release-1 with `git checkout release-1` then `git pull origin release-1`
+4. install required go library with `go mod download` then `go mod vendor` at repository root directory (same level as README.md)
+5. create file .env at repository root directory (same level as README.md) with contents:
 
 ```
 ECOM_ACCOUNT_SERVICE_DB_NAME=<database name, example: ecom_account_service>
@@ -29,6 +30,6 @@ ECOM_ACCOUNT_SERVICE_FRONTEND_URL=<ecom frontend url, example: http://127.0.0.1:
 ECOM_ACCOUNT_SERVICE_PRODUCT_SERVICE_URL=<ecom product service url, example: http://127.0.0.1:8020>
 ```
 
-5. create postgresql databases with name same as in .env file
-6. test server first with `go test ./...` to make sure server works fine
-7. run server with `go run ./...`
+6. create postgresql databases with name same as in .env file
+7. test server first with `go test ./...` to make sure server works fine
+8. run server with `go run ./...`
