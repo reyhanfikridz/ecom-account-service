@@ -7,13 +7,13 @@ ECOM is a simple E-Commerce website builded with Go backend microservices and Dj
 This is a microservice for ECOM that related to customer account CRUD.
 
 ### Requirements:
-1. go (recommended: v1.18.4)
-2. postgresql (recommended: v13.4)
+1. go (tested: v1.18.4, v1.19.3)
+2. postgresql (tested: v13.4, v13.8)
 
 ### Steps to run the server:
 1. install all requirements
 2. clone repository with `git clone https://github.com/reyhanfikridz/ecom-account-service` at directory `$GOPATH/src/github.com/reyhanfikridz/`
-3. change branch to release-1 with `git checkout release-1` then `git pull origin release-1`
+3. change branch to release-1 with `git checkout release-1` then `git pull origin release-1` at repository root directory (same level as README.md)
 4. install required go library with `go mod download` then `go mod vendor` at repository root directory (same level as README.md)
 5. create file .env at repository root directory (same level as README.md) with contents:
 
